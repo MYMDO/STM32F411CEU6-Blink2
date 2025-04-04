@@ -33,7 +33,7 @@ int main(void) {
     while (1) {
         // Toggle the LED on PC13
         GPIOC_ODR ^= GPIOC_PIN13;
-        delay(500000);  // Adjust delay value for blink speed
+        delay(5000000);  // Adjust delay value for blink speed
     }
 
     // Although unreachable, return 0 to satisfy the main function signature.
